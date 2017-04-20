@@ -1,0 +1,179 @@
+html,body {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.row1 {
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row2 {
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.button {
+  border: none;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  float: left;
+}
+
+.button:focus {
+  background-image: none;
+  outline: 0;
+}
+
+.middle_button {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  background-color: #cccccc;
+  border-radius: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  margin-bottom: -100px;
+  position: relative;
+  z-index: 2;
+}
+
+.restart {
+  background-color: #66d9ff;
+  line-height: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 25px;
+  width: 50px;
+  position: relative;
+  top: 10px;
+  cursor: pointer;
+}
+
+.rounds_box {
+  display: inline-block;
+  height: 30px;
+  width: 45px;
+}
+
+
+.rounds {
+  height: 30px;
+  width: 45px;
+  background-color: black;
+  color: red;
+  font-size: 20px;
+}
+
+.rounds_description {
+  color: black;
+  position: relative;
+  height: 30px;
+  width: 45px;
+  line-height: 20px;
+}
+
+.simon {
+  overflow: hidden;
+  width: 165px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 60px;
+  font-style: bold;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Times New Roman;
+  z-index: 3;
+  position: relative;
+  bottom: 60px;
+}
+
+.start {
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: red;
+  cursor: pointer;
+  line-height: 80px;
+}
+
+.start:focus {
+  background-image: none;
+  outline: 0;
+}
+
+.strict {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: yellow;
+  cursor: pointer;
+  line-height: 80px;
+}
+
+.row_below_simon {
+  height: 50px;
+  width: 150px;
+  position: relative;
+  bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.off {
+  background-color: #cccc00;
+}
+
+.button1 {
+  background-color: #2E8B57;
+  border-top-left-radius: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.button2 {
+  background-color: #B22222;
+  border-top-right-radius: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.button3 {
+  background-color: #e6e600;
+  border-bottom-left-radius: 100%;
+  z-index: 1;
+}
+
+.button4 {
+  background-color: #4169E1;
+  border-bottom-right-radius: 100%;
+  z-index: 1;
+}
+
+.button1_flash {
+  background-color: #40bf77;
+  border-top-left-radius: 100%;
+}
+
+.button2_flash {
+  background-color: red;
+  border-top-right-radius: 100%;
+}
+
+.button3_flash {
+  background-color: #ffff4d;
+  border-bottom-left-radius: 100%;
+}
+
+.button4_flash {
+  background-color: #6585e7;
+  border-bottom-right-radius: 100%;
+}
